@@ -4,8 +4,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ master ]
-  schedule:
-    - cron: '*/15 * * * *'
 
 jobs:
   deploy-to-github-pages:
